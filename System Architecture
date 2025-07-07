@@ -1,0 +1,42 @@
+###  **System Architecture Overview**
+
+```
++----------------+
+|  User Interface|
+| (Tkinter Popups)|
++--------+-------+
+         |
+         v
++--------+--------+
+|  Python Script  |
+|  (Main Logic)   |
++--------+--------+
+         |
+         v
++--------+--------+
+|  OpenCV Module  |
+| (Face Detection |
+|  & Distance Calc)|
++--------+--------+
+         |
+         v
++--------+--------+
+|  Webcam Input   |
+| (Live Video Feed)|
++-----------------+
+```
+
+---
+
+###  **Flow Description:**
+
+1. **Webcam Input**: Captures the user’s live video feed.
+2. **OpenCV Module**: Detects the user's face and calculates the distance from the screen.
+3. **Python Script**:
+
+   * Runs logic to compare face distance with a safe threshold.
+   * Triggers alerts if the user is too close.
+4. **User Interface (Tkinter)**:
+
+   * Displays real-time alerts/popups to inform the user.
+
