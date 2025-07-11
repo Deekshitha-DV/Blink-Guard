@@ -9,8 +9,6 @@ A Python-based tool that helps protect your eyes by monitoring screen distance a
 
 ## About The Project
 
-![Product Screenshot](https://example.com/screenshot.png)
-
 Spending long hours in front of screens can strain your eyes and affect your posture. VisionGuard was created to reduce that risk by helping users maintain a healthy distance from their screens.
 
 ### Why I Built It
